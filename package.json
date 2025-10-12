@@ -6,8 +6,8 @@
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"bin": {
-		"mkfilep": "./dist/cli.js",
-		"create-file-in-path": "./dist/cli.js"
+		"mkfilep": "dist/cli.js",
+		"create-file-in-path": "dist/cli.js"
 	},
 	"scripts": {
 		"build": "tsc",
@@ -38,7 +38,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tushkiz/mkfilep.git"
+		"url": "git+https://github.com/tushkiz/mkfilep.git"
 	},
 	"bugs": {
 		"url": "https://github.com/tushkiz/mkfilep/issues"
