@@ -1,0 +1,47 @@
+{
+	"name": "mkfilep",
+	"version": "1.0.0",
+	"description": "Create a file and all non-existent parent directories in its path",
+	"type": "module",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"bin": {
+		"mkfilep": "./dist/cli.js",
+		"create-file-in-path": "./dist/cli.js"
+	},
+	"scripts": {
+		"build": "tsc",
+		"prepublishOnly": "npm run build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"files": [
+		"dist"
+	],
+	"devDependencies": {
+		"@types/node": "^20.19.21",
+		"typescript": "^5.9.3"
+	},
+	"keywords": [
+		"mkdir",
+		"touch",
+		"file",
+		"create",
+		"path",
+		"recursive",
+		"mkdirp",
+		"cli"
+	],
+	"author": "",
+	"license": "MIT",
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tushkiz/mkfilep.git"
+	},
+	"bugs": {
+		"url": "https://github.com/tushkiz/mkfilep/issues"
+	},
+	"homepage": "https://github.com/tushkiz/mkfilep#readme"
+}

@@ -1,0 +1,49 @@
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output/
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Documentation source
+docs/
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.travis.yml
+.gitlab-ci.yml
+.github/
+
+# Environment
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Source files (TypeScript)
+src/
+tsconfig.json
+*.tsbuildinfo
+
+# Old JavaScript files
+index.js
+cli.js
