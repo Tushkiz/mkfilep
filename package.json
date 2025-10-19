@@ -1,6 +1,6 @@
 {
 	"name": "mkfilep",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Create a file and all non-existent parent directories in its path",
 	"type": "module",
 	"main": "./dist/index.js",
@@ -29,9 +29,15 @@
 		"path",
 		"recursive",
 		"mkdirp",
-		"cli"
+		"cli",
+		"file-system",
+		"create-file",
+		"scaffolding",
+		"code-generation",
+		"ai-tools",
+		"function-calling"
 	],
-	"author": "",
+	"author": "Tushar Sonawane <tusharlsonawane+mkfilep@gmail.com>",
 	"license": "MIT",
 	"engines": {
 		"node": ">=14.0.0"
